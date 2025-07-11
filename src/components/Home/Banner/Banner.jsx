@@ -22,7 +22,7 @@ function Banner() {
                             <div>
                                 <h1 className={bnrStyle.bnrSecTlt}>Your Tank. Your Rules.
                                     Fully Automated by SwagBOX</h1>
-                                <p className={bnrStyle.bnrSecCnt}>Experience the next generation of smart water automation. Control, monitor, and optimize your home's water system—automatically and intelligently.</p>
+                                <p className={bnrStyle.bnrSecCnt}>Experience the next generation of smart water automation. Control, monitor, and optimize your home water system—automatically and intelligently.</p>
                                 <div className={bnrStyle.bnrSecBtn}>
                                     <button className={bnrStyle.btnBgCvr}>Enquire Now</button>
                                     <button className={bnrStyle.btnBgBor}>Our Products</button>
