@@ -1,0 +1,110 @@
+.headSec {
+    // position: fixed;
+    // right: 0;
+    // left: 0;
+    // z-index: 1030;
+    // transition: background-color 0.3s ease;
+    // top: 0;
+    // background-color: transparent;
+
+    // @media(max-width:991px) {
+    //     position: sticky;
+    // }
+
+    nav {
+        :global(.navbar-brand) {
+            img {
+                max-width: 80%;
+
+                @media(max-width:991px) {
+                    max-width:fit-content;
+
+                }
+            }
+
+        }
+
+        @media(max-width:991px) {
+            :global(.navbar-toggler) {
+                background-color: #ffffff;
+                font-size: 15px;
+                padding: 5px;
+            }
+        }
+
+        :global(.navbar-nav) {
+            gap: 20px;
+
+            @media(max-width:991px) {
+                gap: 0;
+            }
+
+            :global(.nav-item) {
+                :global(.nav-link) {
+                    color: #666666;
+                    font-size: 15px;
+                    font-weight: 500;
+
+                    @media(max-width:1399px) {
+                        font-size: 14px;
+                    }
+                    position: relative;
+                    &:hover{
+                        &:after{
+                            content: "";
+                            position: absolute;
+                            bottom: 0px;
+                            left: 0px;
+                            height: 0.25em;
+                            width: 100%;
+                            background: #666666;
+                            border-radius: 10px;
+                        }
+                        @media(max-width:991px) {
+                            display: none;
+                        }
+                    }
+
+                }
+
+                .active {
+                    &:after{
+                        content: "";
+                        position: absolute;
+                        bottom: 0px;
+                        left: 0px;
+                        height: 0.25em;
+                        width: 100%;
+                        background: #666666;
+                        border-radius: 10px;
+                        @media(max-width:991px) {
+                            width: fit-content;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .contBtn{
+        background: #999999;
+        border-radius: 15px;
+        padding:2px 10px;
+        @media(max-width:991px) {
+            width: fit-content;
+        }
+        a{
+            font-weight: 700!important;
+            color: #000!important;
+            letter-spacing: 0.5px;
+            &:hover{
+                &:after{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.scrolled {
+    background-color: #000 !important;
+}

@@ -1,0 +1,95 @@
+.bnrSec {
+    // padding:10px 0px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    @media(max-width:991px){
+        // margin-top: 0px;
+        text-align: center;
+        // padding: 20px 0px;
+    }
+
+    .bnrSecTlt {
+        font-size: 40px;
+        font-weight: 700;
+        color: #996633;
+        width: 70%;
+
+        @media(max-width:1399px) {
+            font-size: 35px;
+        }
+        @media(max-width:1199px) {
+            font-size: 30px;
+        }
+        @media(max-width:991px){
+            width: 100%;
+        }
+
+        @media(max-width:767px) {
+            font-size: 30px;
+        }
+    }
+
+    .bnrSecCnt {
+        font-size: 16px;
+        color: #666666;
+        font-weight: 400;
+        margin-bottom: 0px;
+        margin-top: 30px;
+        margin-left: 15px;
+        position: relative;
+
+        @media(max-width:1399px) {
+            font-size: 15px;
+        }
+
+        &:after {
+            content: "";
+            position: absolute;
+            left: -10px;
+            top: 0px;
+            height: 100%;
+            width: 2px;
+            background: #996633;
+            @media(max-width:991px){
+                display: none;
+            }
+        }
+    }
+
+    // .bnrSecBg {
+    //     display: flex;
+    //     align-items: center;
+    //     position: relative;
+    //     .bnrBg {
+    //         position: absolute;
+    //         left: 0px;
+           
+    //     }
+    // }
+
+    .bnrSecBtn {
+        margin-top: 30px;
+        @media(max-width:991px){
+            margin-bottom: 30px;
+        }
+
+        .btnBgCvr {
+            background: #666666;
+            border-radius: 15px;
+            padding: 10px 15px;
+            font-weight: 700 !important;
+            color: #fff !important;
+            margin-right: 10px;
+            border: none;
+        }
+
+        .btnBgBor {
+            border: 1px solid #666666;
+            border-radius: 15px;
+            padding: 10px 15px;
+            font-weight: 700 !important;
+            color: #666666 !important;
+            background: #fff;
+        }
+    }
+}
