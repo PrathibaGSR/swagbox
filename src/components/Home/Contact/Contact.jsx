@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Form from "../Form/Form";
 import abtStyle from "./contact.module.scss";
-import logo from "./assets/logo.jpg";
-import swaglogo from "./assets/swaglogo.png";
+import logo from "./assets/logo.png";
+import swaglogo from "./assets/logo.svg";
+import Link from "next/link";
 
 
 function Contact() {
@@ -18,8 +19,11 @@ function Contact() {
                         <p className={abtStyle.subCnt}>Form Fields</p>
                         <Form />
                         <div className={abtStyle.footAre}>
-                            <p className={abtStyle.desincnt}>Designed and Developed by</p>
-                            <Image src={logo} className="img-fluid" alt="zero is infinite" title="zero is infinite" />
+                            <p className={abtStyle.desincnt}>Designed and Developed by Zero Is Infinite Startup Studio </p>
+                            <Link href="http://ziis.in/" target="_blank">
+                                <Image src={logo} className="img-fluid" alt="zero is infinite" title="zero is infinite" />
+                            </Link>
+
                         </div>
 
                     </div>

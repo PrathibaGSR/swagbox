@@ -1,6 +1,6 @@
 import Image from "next/image";
 import abtStyle from "./included.module.scss";
-import img from "./assets/img.jpg";
+import img from "./assets/img.png";
 
 function Included() {
     return (

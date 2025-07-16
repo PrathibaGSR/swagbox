@@ -9,6 +9,8 @@ function HomePage() {
         <meta name="description" content="swag box" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="UTF-8" />
+        <link rel="icon" href="/favicon.png" />
+
       </Head>
       <Home/>
      

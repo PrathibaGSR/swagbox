@@ -1,3 +1,4 @@
+import LogTraffic from "../Logs/Logs";
 import About from "./About/About";
 import Advantages from "./Advantages/Advantages";
 import Banner from "./Banner/Banner";
@@ -29,6 +30,7 @@ function Home() {
       <Choose/>
       <About/>
       <Contact/>
+      <LogTraffic/>
     </>
   )
 }
