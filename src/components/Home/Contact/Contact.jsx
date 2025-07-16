@@ -19,7 +19,7 @@ function Contact() {
                         <p className={abtStyle.subCnt}>Form Fields</p>
                         <Form />
                         <div className={abtStyle.footAre}>
-                            <p className={abtStyle.desincnt}>Designed and Developed by Zero Is Infinite Startup Studio </p>
+                            <p className={abtStyle.desincnt}>Designed and Developed by <Link href="http://ziis.in/" target="_blank">Zero Is Infinite Startup Studio</Link> </p>
                             <Link href="http://ziis.in/" target="_blank">
                                 <Image src={logo} className="img-fluid" alt="zero is infinite" title="zero is infinite" />
                             </Link>
