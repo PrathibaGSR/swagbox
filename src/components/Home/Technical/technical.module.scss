@@ -1,0 +1,42 @@
+.abtSec {
+    padding: 70px 0px 20px 0px;
+    background: #f4f4f5;
+
+
+    .abtSecTlt {
+        font-size: 40px;
+        font-weight: 700;
+        color: #996633;
+
+        @media(max-width:1399px) {
+            font-size: 35px;
+        }
+
+        @media(max-width:767px) {
+            font-size: 30px;
+        }
+    }
+    img{
+        max-width: 90%;
+        border-radius: 20px;
+        margin:  0 auto;
+        display: block;
+    }
+
+    :global(.table){
+        --bs-table-bg:#eaeaeb;
+        --bs-table-striped-bg:#f4f4f5;
+        tr{
+            td{
+                font-size: 16px;
+                color: #000;
+                font-weight: 400;
+                padding: 15px;
+                @media(max-width:1399px) {
+                    font-size: 15px;
+                }  
+            }
+        }
+    }
+
+}

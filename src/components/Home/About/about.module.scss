@@ -1,6 +1,6 @@
 .abtSec {
     padding: 70px 0px;
-    background: url("./assets/bg.webp");
+    background: url("./assets/bg.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -14,14 +14,15 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: #e0e0e070;
+        background: #a27f5b;
         z-index: -1;
+        opacity: 0.9;
     }
 
     .abtSecTlt {
         font-size: 40px;
         font-weight: 700;
-        color: #996633;
+        color: #ffb852;
 
         @media(max-width:1399px) {
             font-size: 35px;
@@ -44,7 +45,7 @@
 
         .abtLstTlt {
             font-size: 18px;
-            color: #666666;
+            color: #fff;
             font-weight: 700;
             margin-bottom: 0px;
             margin-top: 10px;
@@ -56,7 +57,7 @@
 
         .abtLstCnt {
             font-size: 16px;
-            color: #666666;
+            color: #fff;
             font-weight: 400;
             margin-bottom: 0px;
             margin-top: 10px;

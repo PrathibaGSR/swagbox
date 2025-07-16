@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import headStyle from './header.module.scss';
-import logo from './assets/logo.jpeg';
+import logo from './assets/logo.svg';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -16,7 +16,7 @@ export default function Header() {
         const onScroll = () => {
             setScrolled(window.scrollY > 200);
 
-            const sections = ['product', 'about'];
+            const sections = ['home','product', 'about', 'contact'];
             for (let id of sections) {
                 const el = document.getElementById(id);
                 if (el) {
@@ -38,14 +38,14 @@ export default function Header() {
     // Set active section on route change
     useEffect(() => {
         const [path, hash] = router.asPath.split('#');
-        if (path === '/' && !hash) {
+        if (path === 'home') {
             setActiveSection('home');
         } else if (hash === 'product') {
             setActiveSection('product');
         } else if (hash === 'about') {
             setActiveSection('about');
-        } else if (path === '/contact-us') {
-            setActiveSection('contact-us');
+        } else if (path === 'contact') {
+            setActiveSection('contact');
         } else {
             setActiveSection('');
         }
@@ -141,10 +141,10 @@ export default function Header() {
                     <div className="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
                         <ul className="navbar-nav mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <Link
+                            <Link
                                     className={`nav-link ${isActive('home') ? headStyle.active : ''}`}
-                                    href="/"
-                                    onClick={(e) => handleLinkClick(e, '/')}
+                                    href="/#home"
+                                    onClick={(e) => handleLinkClick(e, '/#home')}
                                 >
                                     Home
                                 </Link>
@@ -171,8 +171,9 @@ export default function Header() {
                         <ul className="navbar-nav mb-2 mb-lg-0 ">
                             <li className={`${headStyle.contBtn} nav-item`}>
                                 <Link
-                                    className={` nav-link`}
+                                   className={`nav-link ${isActive('contact') ? headStyle.active : ''}`}
                                     href="/#contact"
+                                    onClick={(e) => handleLinkClick(e, '/#contact')}
                                     rel="noopener noreferrer"
                                 >
                                     Contact Us

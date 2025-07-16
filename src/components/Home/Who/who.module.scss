@@ -1,0 +1,70 @@
+.abtSec {
+    padding: 70px 0px;
+    background: url("./assets/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+    z-index: 1;
+
+    &:after {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #a0a4a7;
+        z-index: -1;
+        opacity: 0.9;
+    }
+
+    .abtSecTlt {
+        font-size: 40px;
+        font-weight: 700;
+        color: #ffb852;
+
+        @media(max-width:1399px) {
+            font-size: 35px;
+        }
+
+        @media(max-width:767px) {
+            font-size: 30px;
+        }
+    }
+
+    .abtLst {
+        padding: 10px;
+        margin-top: 20px;
+
+        img {
+            width: 40px;
+            height: 40px;
+            color: #FFB852;
+        }
+
+        .abtLstTlt {
+            font-size: 18px;
+            color: #000;
+            font-weight: 700;
+            margin-bottom: 0px;
+            margin-top: 10px;
+
+            @media(max-width:1399px) {
+                font-size: 17px;
+            }
+        }
+
+        .abtLstCnt {
+            font-size: 16px;
+            color: #000;
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 10px;
+
+            @media(max-width:1399px) {
+                font-size: 15px;
+            }
+        }
+    }
+}

@@ -1,0 +1,119 @@
+.abtSec {
+    padding: 50px 0px;
+    background: #f4f4f5;
+
+
+    .abtSecTlt {
+        font-size: 40px;
+        font-weight: 700;
+        color: #996633;
+
+        @media(max-width:1399px) {
+            font-size: 35px;
+        }
+
+        @media(max-width:767px) {
+            font-size: 30px;
+        }
+    }
+
+    .abtSecCnt {
+        font-size: 17px;
+        color: #000;
+        font-weight: 400;
+        margin-bottom: 0px;
+        margin-top: 15px;
+
+        @media(max-width:1399px) {
+            font-size: 16px;
+        }
+    }
+
+    .abtLst {
+        margin-top: 40px;
+        border-left: 2px solid #e5d0b2;
+        border-right: 2px solid #e5d0b2;
+        border-bottom: 2px solid #e5d0b2;
+        border-top: 10px solid #ffb852;
+        border-radius: 10px;
+        padding: 15px;
+
+        .rundICon {
+            width: 45px;
+            height: 45px;
+            border-radius: 50px;
+            background: #ffb852;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: -40px auto auto auto;
+        }
+
+        img {
+            width: 20px;
+            height: 20px;
+        }
+
+        .abtLstTlt {
+            font-size: 22px;
+            color: #000;
+            font-weight: 600;
+            margin-bottom: 0px;
+            margin-top: 10px;
+
+            @media(max-width:1399px) {
+                font-size: 20px;
+            }
+        }
+
+        .abtLstCnt {
+            font-size: 17px;
+            color: #000;
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 10px;
+
+            @media(max-width:1399px) {
+                font-size: 16px;
+            }
+        }
+    }
+
+    .subBg {
+        margin-top: 15px;
+
+        p {
+            font-size: 17px;
+            color: #000;
+            font-weight: 500;
+            margin-bottom: 0px;
+
+            @media(max-width:1399px) {
+                font-size: 16px;
+            }
+
+        }
+    }
+
+    .bgImg {
+        text-align: center;
+        background: linear-gradient(90deg, transparent, #9d9c9b, #30302e, #30302e);
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding: 50px 10px 50px 50px ;
+        @media(max-width:991px){
+            margin-top: 20px;
+            background: transparent;
+            padding: 0px;
+        }
+
+        img {
+            max-width: 80%;
+            border-radius: 20px;
+            box-shadow: -7px 0px 20px #414141;
+            @media(max-width:991px){
+                box-shadow: none;
+            }
+        }
+    }
+}

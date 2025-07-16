@@ -1,71 +1,63 @@
 .bnrSec {
-    // padding:10px 0px;
-    margin-top: 30px;
+    padding:70px 0px;
+    margin-top: 50px;
     margin-bottom: 50px;
+    @media(max-width:1199px){
+        padding: 40px 0px;
+    }
     @media(max-width:991px){
-        // margin-top: 0px;
         text-align: center;
-        // padding: 20px 0px;
+        margin-top: 0px;
+    }
+    img{
+        // height: 358px;
+        // width: 480px;
+       margin: 0 auto;
+       display: block;
+       max-width: 70%;
     }
 
     .bnrSecTlt {
-        font-size: 40px;
+        font-size: 45px;
         font-weight: 700;
         color: #996633;
-        width: 70%;
-
         @media(max-width:1399px) {
-            font-size: 35px;
+            font-size: 40px;
         }
         @media(max-width:1199px) {
-            font-size: 30px;
+            font-size: 35px;
         }
-        @media(max-width:991px){
-            width: 100%;
-        }
-
         @media(max-width:767px) {
             font-size: 30px;
         }
     }
 
     .bnrSecCnt {
-        font-size: 16px;
+        font-size: 17px;
         color: #666666;
         font-weight: 400;
         margin-bottom: 0px;
         margin-top: 30px;
-        margin-left: 15px;
+        margin-left: 25px;
         position: relative;
 
         @media(max-width:1399px) {
-            font-size: 15px;
+            font-size: 16px;
         }
 
         &:after {
             content: "";
             position: absolute;
-            left: -10px;
+            left: -20px;
             top: 0px;
             height: 100%;
             width: 2px;
-            background: #996633;
+            background: #ffb852;
             @media(max-width:991px){
                 display: none;
             }
         }
     }
-
-    // .bnrSecBg {
-    //     display: flex;
-    //     align-items: center;
-    //     position: relative;
-    //     .bnrBg {
-    //         position: absolute;
-    //         left: 0px;
-           
-    //     }
-    // }
 
     .bnrSecBtn {
         margin-top: 30px;
@@ -81,6 +73,8 @@
             color: #fff !important;
             margin-right: 10px;
             border: none;
+            cursor: pointer;
+            text-decoration: none;
         }
 
         .btnBgBor {
@@ -90,6 +84,32 @@
             font-weight: 700 !important;
             color: #666666 !important;
             background: #fff;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    }
+
+    :global(.slick-prev),
+    :global(.slick-next){
+        bottom: -50px;
+        top: auto;
+        &:before{
+             background: #996633;
+             font-size: 22px;
+             padding: 5px;
+             
+        }
+    }
+    :global(.slick-prev){
+        left: 40%;
+        @media(max-width:1199px){
+            left: 38%;
+        }
+    }
+    :global(.slick-next){
+        right: 50%;
+        @media(max-width:460px){
+            right:40%;
         }
     }
 }

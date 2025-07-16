@@ -1,0 +1,111 @@
+.abtSec {
+    padding: 50px 0px;
+    background: #f2f2f2;
+
+
+    .abtSecTlt {
+        font-size: 40px;
+        font-weight: 700;
+        color: #996633;
+
+        @media(max-width:1399px) {
+            font-size: 35px;
+        }
+
+        @media(max-width:767px) {
+            font-size: 30px;
+        }
+    }
+    .abtSecSubTlt{
+        font-size: 50px;
+        font-weight: 700;
+        color: #ffb852;
+        margin-top: 20px;
+
+        @media(max-width:1399px) {
+            font-size: 45px;
+        }
+
+        @media(max-width:767px) {
+            font-size: 35px;
+        }
+    }
+
+    .abtSecCnt {
+        font-size: 17px;
+        color: #000;
+        font-weight: 400;
+        margin-bottom: 0px;
+        margin-top: 15px;
+
+        @media(max-width:1399px) {
+            font-size: 16px;
+        }
+    }
+
+    .imgDiv{
+        img{
+            max-width: 90%;
+            border-radius: 20px;
+        }
+       
+    }
+  
+    .abtLst {
+        margin-top: 40px;
+        display: flex;
+        @media(max-width:767px){
+            display: block;
+        }
+
+        .rundICon {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            background: #ffeacc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .mnTag {
+            width: 100%;
+            margin-left: 20px;
+            @media(max-width:767px){
+                margin-left: 0px;
+            }
+        }
+
+        .abtLstTlt {
+            font-size: 22px;
+            color: #000;
+            font-weight: 700;
+            margin-bottom: 0px;
+
+            @media(max-width:1399px) {
+                font-size: 20px;
+            }
+            @media(max-width:767px){
+                margin-top: 10px;
+            }
+        }
+
+        .abtLstCnt {
+            font-size: 17px;
+            color: #000;
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 5px;
+
+            @media(max-width:1399px) {
+                font-size: 16px;
+            }
+        }
+    }
+
+}

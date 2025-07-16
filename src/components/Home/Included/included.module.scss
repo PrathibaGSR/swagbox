@@ -1,0 +1,78 @@
+.abtSec {
+    padding: 50px 0px;
+    background: #f2f2f2;
+
+
+    .abtSecTlt {
+        font-size: 40px;
+        font-weight: 700;
+        color: #996633;
+
+        @media(max-width:1399px) {
+            font-size: 35px;
+        }
+
+        @media(max-width:767px) {
+            font-size: 30px;
+        }
+    }
+
+    .abtSecCnt {
+        font-size: 17px;
+        color: #000;
+        font-weight: 400;
+        margin-bottom: 0px;
+        margin-top: 15px;
+
+        @media(max-width:1399px) {
+            font-size: 16px;
+        }
+    }
+
+    .abtLst {
+        margin-top: 20px;
+        border-right: 2px solid #e5d0b2;
+        border-top: 2px solid #e5d0b2;
+        border-bottom: 2px solid #e5d0b2;
+        border-left: 10px solid #ffb852;
+        border-radius: 10px;
+        padding: 15px;
+
+        .abtLstTlt {
+            font-size: 22px;
+            color: #000;
+            font-weight: 600;
+            margin-bottom: 0px;
+            margin-top: 10px;
+
+            @media(max-width:1399px) {
+                font-size: 20px;
+            }
+        }
+
+        .abtLstCnt {
+            font-size: 17px;
+            color: #000;
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 10px;
+
+            @media(max-width:1399px) {
+                font-size: 16px;
+            }
+        }
+    }
+
+   
+
+    .bgImg {
+        text-align: center;
+        @media(max-width:991px){
+            margin-top: 20px;
+        }
+        img{
+            border-radius: 20px;
+            max-width: 80%;
+        }
+    }
+}

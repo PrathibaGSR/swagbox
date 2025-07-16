@@ -3,10 +3,10 @@ import abtStyle from "./devices.module.scss";
 function Devices() {
     return (
         <>
-            <section className={abtStyle.abtSec} id="about">
+            <section className={abtStyle.abtSec} >
                 <div className="container">
                     <div>
-                        <h2 className={abtStyle.abtSecTlt}>SwagBOX Smart Water Automation Devices</h2>
+                        <h2 className={abtStyle.abtSecTlt}>SwagBOX Aqua Metallic Features</h2>
                         <p className={abtStyle.abtSecCnt}>An intelligent IoT-based controller that eliminates the need for manual water tank management. Say goodbye to dry tanks, overflows, and wasted electricity.</p>
                         <div className="row">
                             <div className="col-lg-6">
@@ -46,12 +46,15 @@ function Devices() {
                             </div>
                             <div className="col-lg-6">
                                 <div className={abtStyle.abtLst}>
-                                <svg class="colorable-icon" aria-hidden="true" data-prefix="fal" data-icon="square-bolt" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" overflow="visible"><path fill="currentColor" d="M64 64C46.3 64 32 78.3 32 96V416c0 17.7 14.3 32 32 32H384c17.7 0 32-14.3 32-32V96c0-17.7-14.3-32-32-32H64zM0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96zM159.7 264H208c5.5 0 10.5 2.8 13.5 7.4s3.3 10.4 1 15.3l-19.4 41.9L288.3 248H240c-5.5 0-10.5-2.8-13.5-7.4s-3.3-10.4-1-15.3l19.4-41.9L159.7 264zM281.6 112c14.7 0 24.4 15.2 18.2 28.5L265 216h49.4c11.9 0 21.6 9.7 21.6 21.6c0 5.9-2.4 11.6-6.7 15.7L180.2 394.5c-3.7 3.5-8.7 5.5-13.8 5.5c-14.7 0-24.4-15.2-18.2-28.5L183 296H133.6c-11.9 0-21.6-9.7-21.6-21.6c0-5.9 2.4-11.6 6.7-15.7L267.8 117.5c3.7-3.5 8.7-5.5 13.8-5.5z"></path></svg>
-                                    <p className={abtStyle.abtLstTlt}>Automatic motor control</p>
-                                    <p className={abtStyle.abtLstCnt}>Smart logic ensures pumps run only when needed.</p>
+                                <svg class="colorable-icon" aria-hidden="true" data-prefix="fab" data-icon="ubuntu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" overflow="visible"><path fill="currentColor" d="M469.2 75A75.6 75.6 0 1 0 317.9 75a75.6 75.6 0 1 0 151.2 0zM154.2 240.7A75.6 75.6 0 1 0 3 240.7a75.6 75.6 0 1 0 151.2 0zM57 346C75.6 392.9 108 433 150 461.1s91.5 42.6 142 41.7c-14.7-18.6-22.9-41.5-23.2-65.2c-6.8-.9-13.3-2.1-19.5-3.4c-26.8-5.7-51.9-17.3-73.6-34s-39.3-38.1-51.7-62.5c-20.9 9.9-44.5 12.8-67.1 8.2zm395.1 89.8a75.6 75.6 0 1 0 -151.2 0 75.6 75.6 0 1 0 151.2 0zM444 351.6c18.5 14.8 31.6 35.2 37.2 58.2c33.3-41.3 52.6-92.2 54.8-145.2s-12.5-105.4-42.2-149.4c-8.6 21.5-24 39.6-43.8 51.6c15.4 28.6 22.9 60.8 21.9 93.2s-10.7 64-28 91.6zM101.1 135.4c12.4 2.7 24.3 7.5 35.1 14.3c16.6-24.2 38.9-44.1 64.8-58S255.8 70.4 285.2 70c.2-5.9 .9-11.9 2-17.7c3.6-16.7 11.1-32.3 21.8-45.5c-47.7-3.8-95.4 6-137.6 28.5S94.3 91.7 70.8 133.4c2.7-.2 5.3-.3 8-.3c7.5 0 15 .8 22.4 2.3z"></path></svg>
+                                    <p className={abtStyle.abtLstTlt}>Autonomous Operation</p>
+                                    <p className={abtStyle.abtLstCnt}>AI-powered automation eliminates manual intervention.</p>
                                 </div>
                             </div>
                            
+                        </div>
+                        <div className={abtStyle.subBg}>
+                            <p> <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="circle-info" class="svg-inline--fa fa-circle-info fa-fw " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336c-13.3 0-24 10.7-24 24s10.7 24 24 24h80c13.3 0 24-10.7 24-24s-10.7-24-24-24h-8V248c0-13.3-10.7-24-24-24H216c-13.3 0-24 10.7-24 24s10.7 24 24 24h24v64H216zm40-144a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"></path></svg>Subscription support: Plans available for cloud access, updates, and maintenance.</p>
                         </div>
                     </div>
                 </div>
