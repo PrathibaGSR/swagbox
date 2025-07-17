@@ -17,6 +17,29 @@
        max-width: 70%;
     }
 
+    .cusFont{
+        font-family: 'ITCEDSCR';
+        font-size: 65px;
+        @media(max-width:1599px){
+            font-size: 60px;
+        }
+        @media(max-width:1399px){
+            font-size: 55px;
+        }
+        @media(max-width:1199px){
+            font-size: 50px;
+        }
+        @media(max-width:991px){
+            font-size: 45px;
+        }
+        @media(max-width:767px){
+            font-size: 40px;
+        }
+        @media(max-width:347px){
+            font-size: 35px;
+        }
+    }
+
     .bnrSecTlt {
         font-size: 45px;
         font-weight: 700;

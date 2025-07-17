@@ -27,7 +27,7 @@ function Banner() {
                         <div className="col-lg-6 order-lg-0 order-first">
                             <div>
                                 <h1 className={bnrStyle.bnrSecTlt}>
-                                    Your Tank. Your Rules. Fully Automated by SwagBOX Aqua Metallic
+                                    <div className={bnrStyle.cusFont}>Your Tank. Your Rules.</div>Fully Automated by SwagBOX Aqua Metallic
                                 </h1>
                                 <p className={bnrStyle.bnrSecCnt}>
                                     Experience the next generation of smart water automation. Control, monitor, and optimize your home&apos;s water system based on your personal needs with the SwagBox Aqua Metallic device and the SwagBox app.
