@@ -116,36 +116,36 @@ export default function Form() {
             <div className="row">
               <div className="col-lg-4">
                 <div className="position-relative">
-                  <input placeholder="Full Name *" type="text" name="name" value={formData.name} onChange={handleChange} />
+                  <input placeholder="Full Name" type="text" name="name" value={formData.name} onChange={handleChange} />
                   {errors.name && <p className={inrStyle.errMsg}>{errors.name}</p>}
                 </div>
               </div>
               <div className="col-lg-4">
                 <div className="position-relative">
-                  <input placeholder="Mobile Number *" type="text" name="phone" value={formData.phone} onChange={handleChange} />
+                  <input placeholder="Mobile Number" type="text" name="phone" value={formData.phone} onChange={handleChange} />
                   {errors.phone && <p className={inrStyle.errMsg}>{errors.phone}</p>}
                 </div>
               </div>
               <div className="col-lg-4">
                 <div className="position-relative">
-                  <input placeholder="Email Address *" type="email" name="email" value={formData.email} onChange={handleChange} />
+                  <input placeholder="Email Address" type="email" name="email" value={formData.email} onChange={handleChange} />
                   {errors.email && <p className={inrStyle.errMsg}>{errors.email}</p>}
                 </div>
               </div>
               <div className="col-lg-6">
                 <div className="position-relative">
-                  <input placeholder="City / Location *" type="text" name="location" value={formData.location} onChange={handleChange} />
+                  <input placeholder="City / Location" type="text" name="location" value={formData.location} onChange={handleChange} />
                   {errors.location && <p className={inrStyle.errMsg}>{errors.location}</p>}
                 </div>
               </div>
               <div className="col-lg-6">
                 <div className="position-relative">
-                  <textarea placeholder="Message or Requirement *" name="message" value={formData.message} onChange={handleChange}></textarea>
+                  <textarea placeholder="Message or Requirement" name="message" value={formData.message} onChange={handleChange}></textarea>
                   {errors.message && <p className={inrStyle.errMsg}>{errors.message}</p>}
                 </div>
               </div>
             </div>
-            <button type="submit">Submit Query</button>
+            <button type="submit">Submit Enquiry</button>
           </form>
         </div>
       </section>

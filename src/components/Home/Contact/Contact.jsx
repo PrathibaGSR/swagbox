@@ -16,7 +16,6 @@ function Contact() {
                         <p className={abtStyle.abtSecCnt}>Want SwagBOX Aqua Metallic installed at your home or building? Reach out today.</p>
                         <div className={abtStyle.linDiv}></div>
                         <h3 className={abtStyle.subTlt}>Let&apos;s Connect</h3>
-                        <p className={abtStyle.subCnt}>Form Fields</p>
                         <Form />
                         <div className={abtStyle.footAre}>
                             <p className={abtStyle.desincnt}>Designed and Developed by <Link href="http://ziis.in/" target="_blank">Zero Is Infinite Startup Studio</Link> </p>
