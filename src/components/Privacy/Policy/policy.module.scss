@@ -1,0 +1,156 @@
+.abtSec {
+    padding: 100px 0px 20px 0px;
+    background: #f2f2f2;
+
+
+    .abtSecTlt {
+        font-size: 40px;
+        font-weight: 700;
+        color: #000;
+
+        @media(max-width:1399px) {
+            font-size: 35px;
+        }
+
+        @media(max-width:767px) {
+            font-size: 30px;
+        }
+    }
+
+    .abtSecCnt {
+        font-size: 17px;
+        color: #000;
+        font-weight: 400;
+        margin-bottom: 0px;
+        margin-top: 15px;
+
+        @media(max-width:1399px) {
+            font-size: 16px;
+        }
+    }
+
+    .mnDiv {
+        counter-reset: step;
+    }
+
+    .abtLst {
+        margin-top: 20px;
+        border-right: 2px solid #ffeacc;
+        border-top: 2px solid #ffeacc;
+        border-bottom: 2px solid #ffeacc;
+        border-left: 60px solid #ffeacc;
+        border-radius: 10px;
+        padding: 15px;
+        position: relative;
+
+        &::before {
+            counter-increment: step;
+            content: counter(step);
+            position: absolute;
+            color: #000;
+            font-weight: 600;
+            font-size: 20px;
+            left: -30px;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+            @media(max-width:767px) {
+                font-size: 18px;
+            }
+        }
+
+        .abtLstTlt {
+            font-size: 22px;
+            color: #000;
+            font-weight: 600;
+            margin-bottom: 0px;
+            margin-top: 10px;
+
+            @media(max-width:1399px) {
+                font-size: 20px;
+            }
+        }
+
+        .abtLstCnt {
+            font-size: 17px;
+            color: #000;
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 10px;
+
+            @media(max-width:1399px) {
+                font-size: 16px;
+            }
+        }
+
+        ul {
+            padding-left: 15px;
+            margin-bottom: 0px;
+
+            li {
+                font-size: 17px;
+                color: #000;
+                font-weight: 400;
+                margin-bottom: 0px;
+                margin-top: 10px;
+
+                @media(max-width:1399px) {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    .contDiv {
+        background: #b6d6fc;
+        border-radius: 10px;
+        padding: 20px 50px;
+        margin-top: 20px;
+        position: relative;
+        &:after{
+            content: "";
+            position: absolute;
+            left: 15px;
+            top: 22px;
+            background: url("./assets/icon.svg");
+            background-size: contain;
+            background-repeat: no-repeat;
+            width:20px;
+            height:20px;
+        }
+
+        h4 {
+            font-size: 22px;
+            color: #000;
+            font-weight: 600;
+            @media(max-width:1399px) {
+                font-size: 20px;
+            }
+        }
+
+        p ,a{
+            font-size: 17px;
+            color: #000;
+            font-weight: 400;
+            margin-bottom: 0px;
+            margin-top: 20px;
+            text-decoration: none;
+
+            @media(max-width:1399px) {
+                font-size: 16px;
+            }
+        }
+
+    }
+
+    .swagLogo {
+        margin-top: 30px;
+        padding: 10px 20px;
+
+        img {
+            width: 156px;
+
+        }
+    }
+
+}

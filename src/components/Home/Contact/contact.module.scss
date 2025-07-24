@@ -71,35 +71,105 @@
         align-items: center;
         justify-content: center;
 
-        .desincnt,a {
+        .desincnt,
+        a {
             font-size: 11px;
             color: #000;
             font-weight: 400;
             margin-bottom: 0px;
             line-height: 1.7;
             text-decoration: none;
-    
+
             @media(max-width:1399px) {
                 font-size: 10px;
             }
+
             @media(max-width:767px) {
                 font-size: 10px;
             }
-            
+
         }
-        img{
+
+        img {
             width: 40px;
-          @media(max-width:400px) {
-            width: 25px;
-        }
+
+            @media(max-width:400px) {
+                width: 25px;
+            }
         }
     }
-    .swagLogo{
+
+    .swagLogo {
         margin-top: 20px;
         padding: 10px 20px;
-        img{
+
+        img {
             width: 156px;
-           
+
+        }
+    }
+
+    .contFoot {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+
+        p {
+            font-size: 14px;
+            color: #000;
+            font-weight: 400;
+            margin-bottom: 0px;
+            line-height: 1.7;
+            position: relative;
+
+            &:after {
+                content: "";
+                position: absolute;
+                right: -20px;
+                width: 2px;
+                height: 50%;
+                background: #000;
+                top: auto;
+                bottom: auto;
+                transform: translate(50%, 50%);
+                @media(max-width:511px){
+                    display: none;
+                }
+
+            }
+
+            @media(max-width:1399px) {
+                font-size: 13px;
+            }
+        }
+
+        ul {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-bottom: 0px;
+            justify-content: center ;
+            @media(max-width:511px){
+               margin-top: 10px;
+            }
+
+            li,
+            a {
+                list-style: none;
+                font-size: 14px;
+                color: #2e3133;
+                font-weight: 600;
+                margin-bottom: 0px;
+                line-height: 1.7;
+                cursor: pointer;
+                text-decoration: underline;
+
+                @media(max-width:1399px) {
+                    font-size: 13px;
+                }
+            }
         }
     }
 }

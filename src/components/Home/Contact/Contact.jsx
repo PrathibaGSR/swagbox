@@ -3,7 +3,7 @@ import Form from "../Form/Form";
 import abtStyle from "./contact.module.scss";
 import logo from "./assets/logo.png";
 import swaglogo from "./assets/logo.svg";
-import Link from "next/link";
+import { Link } from 'react-scroll';
 
 
 function Contact() {
@@ -25,6 +25,16 @@ function Contact() {
 
                         </div>
 
+                    </div>
+                    <div className={abtStyle.contFoot}>
+                        <p>© 2025 SwagBOX</p>
+                        <ul>
+                            <li><Link to="home">Home</Link></li>
+                            <li><Link to="product">Products</Link></li>
+                            <li><Link to="about">About Us</Link></li>
+                            <li><Link to="contact">Contact Us</Link></li>
+                            <li><a href={"/privacy-policy"} target="_blank">Privacy Policy</a></li>
+                        </ul>
                     </div>
                 </div>
                 <div className={abtStyle.swagLogo}>
