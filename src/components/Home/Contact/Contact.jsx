@@ -18,10 +18,10 @@ function Contact() {
                         <h3 className={abtStyle.subTlt}>Let&apos;s Connect</h3>
                         <Form />
                         <div className={abtStyle.footAre}>
-                            <p className={abtStyle.desincnt}>Designed and Developed by <Link href="http://ziis.in/" target="_blank">Zero Is Infinite Startup Studio</Link> </p>
-                            <Link href="http://ziis.in/" target="_blank">
+                            <p className={abtStyle.desincnt}>Designed and Developed by <a href="http://ziis.in/" target="_blank">Zero Is Infinite Startup Studio</a> </p>
+                            <a href="http://ziis.in/" target="_blank">
                                 <Image src={logo} className="img-fluid" alt="zero is infinite" title="zero is infinite" />
-                            </Link>
+                            </a>
 
                         </div>
 
